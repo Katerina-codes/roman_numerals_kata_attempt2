@@ -5,8 +5,10 @@ class RomanNumerals
       "I"
     elsif arabic == 2
       "II"
-    else
+    elsif arabic == 3
       "III"
+    else
+      "IV"
     end
   end
 end

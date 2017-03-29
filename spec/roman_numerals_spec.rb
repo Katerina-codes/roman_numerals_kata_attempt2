@@ -2,19 +2,25 @@ require "roman_numerals"
 
 describe RomanNumerals do
 
-  it "returns I when arabic number is 1" do
+  def expect_convert_number(arabic, roman)
     number_converter = RomanNumerals.new
-    expect(number_converter.convert_number(1)).to eq("I")
+    expect(number_converter.convert_number(arabic)).to eq(roman)
+  end
+
+  it "returns I when arabic number is 1" do
+    expect_convert_number(1, "I")
   end
 
   it "returns II when arabic number is 2" do
-    number_converter = RomanNumerals.new
-    expect(number_converter.convert_number(2)).to eq("II")
+    expect_convert_number(2, "II")
   end
 
   it "returns III when arabic number is 3" do
-    number_converter = RomanNumerals.new
-    expect(number_converter.convert_number(3)).to eq("III")
+    expect_convert_number(3, "III")
+  end
+
+  it "returns IV when arabic number is 4" do
+    expect_convert_number(4, "IV")
   end
 
 end
