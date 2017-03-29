@@ -12,4 +12,9 @@ describe RomanNumerals do
     expect(number_converter.convert_number(2)).to eq("II")
   end
 
+  it "returns III when arabic number is 3" do
+    number_converter = RomanNumerals.new
+    expect(number_converter.convert_number(3)).to eq("III")
+  end
+
 end
