@@ -19,8 +19,8 @@ describe RomanNumerals do
     expect_convert_number(3, "III")
   end
 
-  it "returns IV when arabic number is 4" do
-    expect_convert_number(4, "IV")
+  it "returns V when arabic number is 5" do
+    expect_convert_number(4, "V")
   end
 
 end
