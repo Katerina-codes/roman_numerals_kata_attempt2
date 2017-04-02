@@ -1,14 +1,13 @@
 class RomanNumerals
 
   def convert_number(arabic)
-    if arabic == 1
-      "I"
-    elsif arabic == 2
-      "II"
-    elsif arabic == 3
-      "III"
-    else
-      "IV"
-    end
+    numeral = ""
+      until arabic == 0
+        arabic -= 1
+        numeral << "I"
+      end
+    numeral
   end
+
+
 end
