@@ -39,4 +39,8 @@ describe RomanNumerals do
     expect_convert_number(10, "X")
   end
 
+  it "returns XIV when arabic is 14" do
+    expect_convert_number(14, "XIV")
+  end
+
 end
