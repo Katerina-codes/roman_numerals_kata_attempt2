@@ -51,5 +51,8 @@ describe RomanNumerals do
     expect_convert_number(40, "XL")
   end
 
+  it "returns L when arabic is 50" do
+    expect_convert_number(50, "L")
+  end
 
 end
