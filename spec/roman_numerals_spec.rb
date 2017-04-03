@@ -14,7 +14,7 @@ describe RomanNumerals do
   it "returns II when arabic is 2" do
     expect_convert_number(2, "II")
   end
-  
+
   it "returns III when arabic is 3" do
     expect_convert_number(3, "III")
   end
@@ -23,8 +23,12 @@ describe RomanNumerals do
     expect_convert_number(5, "V")
   end
 
-  # it "returns VI when arabic is 6" do
-  #   expect_convert_number(6, "VI")
-  # end
+  it "returns VI when arabic is 6" do
+    expect_convert_number(6, "VI")
+  end
+
+  it "returns IV when arabic is 4" do
+    expect_convert_number(4, "IV")
+  end
 
 end
