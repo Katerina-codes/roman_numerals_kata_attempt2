@@ -43,4 +43,13 @@ describe RomanNumerals do
     expect_convert_number(14, "XIV")
   end
 
+  it "returns XIX when arabic is 19" do
+    expect_convert_number(19, "XIX")
+  end
+
+  it "returns XL when arabic is 40" do
+    expect_convert_number(40, "XL")
+  end
+
+
 end
