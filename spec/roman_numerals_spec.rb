@@ -35,4 +35,8 @@ describe RomanNumerals do
     expect_convert_number(9, "IX")
   end
 
+  it "returns X when arabic is 10" do
+    expect_convert_number(10, "X")
+  end
+
 end
