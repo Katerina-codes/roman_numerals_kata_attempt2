@@ -31,4 +31,8 @@ describe RomanNumerals do
     expect_convert_number(4, "IV")
   end
 
+  it "returns IX when arabic is 9" do
+    expect_convert_number(9, "IX")
+  end
+
 end
