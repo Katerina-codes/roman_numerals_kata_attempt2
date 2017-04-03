@@ -63,4 +63,8 @@ describe RomanNumerals do
     expect_convert_number(100, "C")
   end
 
+  it "returns D when arabic is 500" do
+    expect_convert_number(500, "D")
+  end
+  
 end
