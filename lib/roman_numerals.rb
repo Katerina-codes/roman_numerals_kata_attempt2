@@ -6,12 +6,11 @@ class RomanNumerals
 
     arabic_to_roman.each do |arabic, roman|
       while arabic_to_convert > 0 && arabic_to_convert >= arabic
-           numerals << roman
-           arabic_to_convert -= arabic
-        end
+        numerals << roman
+        arabic_to_convert -= arabic
+      end
     end
     numerals
   end
-
-
+  
 end
