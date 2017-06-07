@@ -75,7 +75,7 @@ describe RomanNumerals do
     expect_convert_number(990, "CMXC")
   end
 
-  it "returns CMXC when arabic is 1000" do
+  it "returns MMMCMXCIX when arabic is 1000" do
     expect_convert_number(3999, "MMMCMXCIX")
   end
 

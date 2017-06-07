@@ -10,7 +10,7 @@ class RomanNumerals
         arabic_to_convert -= arabic
       end
     end
-    numerals
+    puts numerals
   end
-  
+
 end
